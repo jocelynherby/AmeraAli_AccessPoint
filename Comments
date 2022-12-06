@@ -1,0 +1,26 @@
+#This is a comment
+print("Hello, World!")
+
+#comments are ignored by python
+#print("hi there, how you been?")
+print("Hello!") #comments can be used on code chunks you want python to ignore
+
+#hi there
+#still on school
+#written in
+print("Hello, world") #can be used in a row but using multiple #s
+
+"""
+This is a comment
+written in 
+more than just one line
+"""
+print("Hello, World!") # Python ignore string laterals that are not assigned to a variable: add multi line string triple codes in your code
+
+# This is a comment
+
+"""
+This is a comment
+"""
+
+
