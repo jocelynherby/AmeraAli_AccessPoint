@@ -1,0 +1,43 @@
+x1 = 5
+print(type(x1)) #int: positive or negative whole numbers; without a decimal point.
+print()
+x2 = 1.5
+print(type(x2)) #float: Real numbers; with a decimal point. 
+print()
+x3 = True #Boolean values(bool): A "true" or "false" value; 1 or 0, on or off, right or wrong.
+print(type(x3)) #MUST WRIGHT "TRUE" OR "FALSE" WITH CAPPITAL LETTERS (True; False).
+print()
+x4 = "hi" #str: text values that are composed of a sequence of characters
+x4 #The output values of "" and '' are the same
+print("hi")
+print(type("hi"))
+print("i'm fine.")
+print('i\'m fine.') # \ is an escape character 
+print("press 'enter'")
+print('red' 'car')
+print('red ' 'car')
+print('red' + 'car')
+print('red ' + 'car')
+print ('red', 'car')
+print(3, 5)
+print( 5, 9.9, 7.0, "hi")
+print()
+v = [10, "hello", 200.3] #list: ordered, changeable, allows duplicates. uses []
+print (v [1])
+a = set([1,2,3]) 
+print (a)
+a.add(7)
+print(a)
+a.remove(3)
+print(a) 
+b = frozenset([1,2,3]) #frozensets are non-changable, no attributes. I cant add nor remove veriables unlike with a normal "set". This will print an error.
+
+print()
+r = (10, 'hi', 100.5) #tuple(tup): ordred, unchangable, allows duplicates. uses () 
+print (r [2])
+print()
+s = {"a","b"} #set: unordered, unchangeable, no duplicates
+print(s)
+print()
+z = {"name" : "John", "age" : 36}	 #Dictionary(dict): unordered, changeable,  indexed, no duplicates. 
+print(z["age"])
